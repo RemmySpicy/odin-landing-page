@@ -1,0 +1,186 @@
+:root {
+    --clr-dark-bg:#1F2937;
+    --clr-main-blue: #3883F6;
+    --clr-main-white: #F9FAF8;
+    --clr-second-white: #E5E7EB;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* ===== HERO ===== */
+
+.hero {
+    background-color: var(--clr-dark-bg);
+    color: var(--clr-main-white);
+    padding: 10px;
+}
+
+header {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--clr-main-white);
+}
+
+.container {
+    max-width: 832px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    font-size: 18px;
+    color: var(--clr-second-white);
+}
+
+.left {
+    width: 48%;
+    padding-right: 2%;
+}
+
+.hero-content {
+    padding: 3rem 0;
+    display: flex;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: var(--clr-main-white);
+    line-height: 0.9;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: var(--clr-second-white);
+    margin: 7px 0;
+}
+
+.right {
+    background-color: #eeeeee88;
+    width: 50%;
+    text-align: center;
+    padding-top: 10%;
+    border-radius: 6px;
+    opacity: 0.7;
+}
+
+.button {
+    background-color: var(--clr-main-blue);
+    padding: 5px 1.2rem;
+    border-radius: 5px;
+    margin: 5px auto;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.button.one {
+    color: inherit;
+    border: none;
+}
+
+
+/* ===== SECTION INFORMATION ===== */
+
+.section-info {
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.section-info h2 {
+    margin: 2rem 0;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.section-flex {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.info-card {
+    max-width: 150px;
+}
+
+.info-img {
+    border: 3px solid #3883F6;
+    width: 150px;
+    aspect-ratio: 1;
+    border-radius: 12px;
+    margin: 6px auto;
+}
+
+
+/* ===== SECTION QUOTE ===== */
+
+.section-quote {
+    background-color: var(--clr-second-white);
+}
+
+.quote-box {
+    margin: 0 3.5rem;
+    padding: 4rem 0;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: var(--clr-dark-bg);
+}
+
+.quote-caption {
+    text-align: right;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+/* ===== SECTION CALL TO ACTION ===== */
+
+.section-cta {
+    padding: 5rem 0;
+}
+
+.cta-box {
+    background-color: var(--clr-main-blue);
+    padding: 2rem 4rem;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--clr-second-white);
+}
+
+.cta-box p {
+    font-weight: var(--clr-second-white);
+    line-height: 1.5;
+}
+
+.button.two {
+    color: var(--clr-second-white);
+    border: 2px solid white;
+}
+
+
+/* ===== FOOTER ===== */
+
+footer {
+    background-color: var(--clr-dark-bg);
+    color: var(--clr-second-white);
+    text-align: center;
+    padding: 1.8rem 0;
+}
